@@ -17,9 +17,9 @@ Add a task on hardhat.config.ts for each ot the functions you need to interact w
 ## Fourth step
 
 Run the following commands:
-
+```bash
 npx hardhat getQuestion --network sapphire-testnet 0xFfdb1c4aCe237B10ef5Bd83ec2e6E24D2784225c <coupon code>
-
+```bash
 npx hardhat submitAnswer --network sapphire-testnet 0xFfdb1c4aCe237B10ef5Bd83ec2e6E24D2784225c <coupon code> <answer>
-
+```bash
 npx hardhat claimReward --network sapphire-testnet 0xFfdb1c4aCe237B10ef5Bd83ec2e6E24D2784225c <coupon code>
